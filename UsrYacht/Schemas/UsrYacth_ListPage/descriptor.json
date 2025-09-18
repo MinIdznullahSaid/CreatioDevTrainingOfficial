@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "062c302d-c77c-4c7d-bfc0-293bf89a53c7",
+    "Name": "UsrYacth_ListPage",
+    "ModifiedOnUtc": "\/Date(1758168802000)\/",
+    "Parent": {
+      "UId": "b7b898d0-8c77-4953-c097-23fa6800da02",
+      "Name": "ListPageV3Template"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Yacth list page",
+    "DependsOn": []
+  }
+}

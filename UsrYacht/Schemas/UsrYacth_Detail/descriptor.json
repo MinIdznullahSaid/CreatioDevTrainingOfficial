@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "fff0e258-3914-409e-90ea-bd97a36a8d8f",
+    "Name": "UsrYacth_Detail",
+    "ModifiedOnUtc": "\/Date(1758168802000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Yacth detail",
+    "DependsOn": []
+  }
+}

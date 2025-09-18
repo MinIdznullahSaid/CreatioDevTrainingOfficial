@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "2e86382e-4949-4503-afde-e2599836d0ff",
+    "Name": "UsrYacthRelatedPage",
+    "ModifiedOnUtc": "\/Date(1758168802000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Yacth (Page settings)",
+    "DependsOn": []
+  }
+}

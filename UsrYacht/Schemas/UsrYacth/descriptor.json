@@ -2,13 +2,12 @@
   "Descriptor": {
     "UId": "b2dbbb39-d80f-4a76-ab82-a68bda106158",
     "Name": "UsrYacth",
-    "ModifiedOnUtc": "\/Date(1758171005000)\/",
+    "ModifiedOnUtc": "\/Date(1758245770000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Yacth",
-    "DependsOn": []
+    "Caption": "Yacth"
   }
 }

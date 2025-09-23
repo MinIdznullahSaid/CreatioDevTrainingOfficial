@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "5b23a67a-2358-4d1d-8909-0842a96f164a",
+    "Name": "UsrYacth_FormPageBusinessRule",
+    "ModifiedOnUtc": "\/Date(1758595312000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Yacth form page (Business rules)",
+    "DependsOn": []
+  }
+}

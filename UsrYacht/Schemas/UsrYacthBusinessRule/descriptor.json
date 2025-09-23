@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "298cf7c4-5aae-46ca-9d4a-0d733da7c53c",
+    "Name": "UsrYacthBusinessRule",
+    "ModifiedOnUtc": "\/Date(1758594218000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Yacth (Business rules)",
+    "DependsOn": []
+  }
+}

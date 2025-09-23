@@ -144,7 +144,41 @@
     "FB5": 3
   }
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","a1fff685-7bd8-4560-8121-ae4d03f660bb","98ccbe4c-d6b9-37df-e6bf-704d8e507eea","67114ecd-4b9d-1f9a-b972-432825441afc","ea686d60-93a9-8186-0304-51bcb653c200","fe5d4b04-c32e-bbeb-e4fb-9a6fe612d6aa","84df68da-22aa-fb18-5e10-214903687f82","46e27771-0f12-9401-b548-d5f7a62d52de","1e3574e5-5bb5-6426-c2a6-95a6738ccb16","2b308bab-cc3a-09d2-7d3d-c09f25f4eace","ae0d0604-4da6-1b39-cb39-5cb04647b85c","12b6d691-90f2-f7b3-f712-8c8c1badc687"]
++ MetaData.Schema.D2 {
+  "UId": "a91f5bb9-a72c-416f-843b-30688b28b30b",
+  "A2": "UsrCity",
+  "A3": "b2dbbb39-d80f-4a76-ab82-a68bda106158",
+  "A4": "b2dbbb39-d80f-4a76-ab82-a68bda106158",
+  "A5": "d9b1507b-6172-4554-b2f5-ece06fcb4eb6",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "5ca90b6a-93e7-4448-befe-ab5166ec2cfe",
+  "E6": true,
+  "E20": true,
+  "E17": "UsrCityId",
+  "E18": "UsrCityName"
+}
++ MetaData.Schema.D2 {
+  "UId": "fb4654d7-2f12-1015-0b1c-1e0210b80831",
+  "A2": "UsrCountry",
+  "A3": "b2dbbb39-d80f-4a76-ab82-a68bda106158",
+  "A4": "b2dbbb39-d80f-4a76-ab82-a68bda106158",
+  "A5": "d9b1507b-6172-4554-b2f5-ece06fcb4eb6",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "09fce1f8-515c-4296-95cd-8cd93f79a6cf",
+  "E6": true,
+  "E20": true,
+  "E17": "UsrCountryId",
+  "E18": "UsrCountryName"
+}
++ MetaData.Schema.D2 {
+  "UId": "4e33d649-808b-2aa8-a4b8-29798dee1f72",
+  "A2": "UsrTicketPrice",
+  "A3": "b2dbbb39-d80f-4a76-ab82-a68bda106158",
+  "A4": "b2dbbb39-d80f-4a76-ab82-a68bda106158",
+  "A5": "d9b1507b-6172-4554-b2f5-ece06fcb4eb6",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","a1fff685-7bd8-4560-8121-ae4d03f660bb","98ccbe4c-d6b9-37df-e6bf-704d8e507eea","67114ecd-4b9d-1f9a-b972-432825441afc","ea686d60-93a9-8186-0304-51bcb653c200","fe5d4b04-c32e-bbeb-e4fb-9a6fe612d6aa","84df68da-22aa-fb18-5e10-214903687f82","46e27771-0f12-9401-b548-d5f7a62d52de","1e3574e5-5bb5-6426-c2a6-95a6738ccb16","2b308bab-cc3a-09d2-7d3d-c09f25f4eace","ae0d0604-4da6-1b39-cb39-5cb04647b85c","12b6d691-90f2-f7b3-f712-8c8c1badc687","a91f5bb9-a72c-416f-843b-30688b28b30b","fb4654d7-2f12-1015-0b1c-1e0210b80831","4e33d649-808b-2aa8-a4b8-29798dee1f72"]
 = MetaData.Schema.D20.A2 "UsrYacthEvents"
 = MetaData.Schema.D36.A3 "b2dbbb39-d80f-4a76-ab82-a68bda106158"
 = MetaData.Schema.D36.BS1 false

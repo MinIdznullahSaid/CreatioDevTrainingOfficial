@@ -146,6 +146,29 @@ define("UsrYacth_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
+				"name": "TicketPrice",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 3,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_UsrTicketPrice_686cepd",
+					"labelPosition": "auto",
+					"control": "$PDS_UsrTicketPrice_686cepd",
+					"visible": false,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "SideAreaProfileContainer",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
 				"name": "Length",
 				"values": {
 					"layoutConfig": {
@@ -296,7 +319,11 @@ define("UsrYacth_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"label": "$Resources.Strings.PDS_UsrComment_1a6fnbh",
 					"labelPosition": "auto",
 					"control": "$PDS_UsrComment_1a6fnbh",
-					"multiline": false
+					"multiline": false,
+					"visible": false,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": ""
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
@@ -331,6 +358,33 @@ define("UsrYacth_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
+				"name": "Country",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 5,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_UsrCountry_aktizyx",
+					"labelPosition": "auto",
+					"control": "$PDS_UsrCountry_aktizyx",
+					"listActions": [],
+					"showValueAsLink": false,
+					"controlActions": [],
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": "",
+					"valueDetails": null
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 8
+			},
+			{
+				"operation": "insert",
 				"name": "Number",
 				"values": {
 					"layoutConfig": {
@@ -351,7 +405,34 @@ define("UsrYacth_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
-				"index": 8
+				"index": 9
+			},
+			{
+				"operation": "insert",
+				"name": "City",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 6,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_UsrCity_4uuz6m3",
+					"labelPosition": "auto",
+					"control": "$PDS_UsrCity_4uuz6m3",
+					"listActions": [],
+					"showValueAsLink": false,
+					"controlActions": [],
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": "",
+					"valueDetails": null
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 10
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -414,6 +495,21 @@ define("UsrYacth_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"PDS_UsrNumber_cl3806l": {
 						"modelConfig": {
 							"path": "PDS.UsrNumber"
+						}
+					},
+					"PDS_UsrCountry_aktizyx": {
+						"modelConfig": {
+							"path": "PDS.UsrCountry"
+						}
+					},
+					"PDS_UsrCity_4uuz6m3": {
+						"modelConfig": {
+							"path": "PDS.UsrCity"
+						}
+					},
+					"PDS_UsrTicketPrice_686cepd": {
+						"modelConfig": {
+							"path": "PDS.UsrTicketPrice"
 						}
 					}
 				}

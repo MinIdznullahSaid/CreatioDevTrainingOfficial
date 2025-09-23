@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.46a5a69e-2973-fea5-882b-66cd017efb83.Caption" Value="Show elements: Comment" />
+			<Item Name="AddonConfig.Rules.9ab645b4-42fa-f390-210e-c529111dd695.Caption" Value="Show elements: Ticket price, USD" />
+			<Item Name="Caption" Value="Yacth form page (Business rules)" />
+		</Items>
+	</Group>
+</Resources>
